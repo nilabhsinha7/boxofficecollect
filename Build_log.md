@@ -69,6 +69,10 @@
 - Updated `/internal` protection so production fails closed when Basic Auth env vars are missing.
 - Updated deployment docs to treat internal Basic Auth env vars as required for production.
 
+## Hotfix - Timestamp-safe date formatting
+
+- Updated shared date formatting to support both plain dates and ISO timestamps from Supabase `updated_at` fields.
+
 ## Task 11 - Local OpenAI env file
 
 - Added `.env.local` with placeholders for `OPENAI_API_KEY` and `OPENAI_COMPARE_MODEL`.
